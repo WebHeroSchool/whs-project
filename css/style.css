@@ -61,3 +61,12 @@ body {
         font-size: 32px;
     }
 }
+
+@media (max-width: 320px) {
+    .burger {
+        display: block;
+    }
+    .menu__links {
+        display: none;
+    }
+}
